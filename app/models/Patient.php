@@ -5,7 +5,7 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class Patient extends Eloquent implements UserInterface, RemindableInterface {
 	
-	protected $table = 'Patients';
+	protected $table = 'patients';
 	protected $guarded = array('id');
 	protected $fillable = array('first_name','middle_name','last_name','gender','birth_date','address','contact');
 

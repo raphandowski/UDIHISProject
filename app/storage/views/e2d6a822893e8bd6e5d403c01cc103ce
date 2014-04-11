@@ -3,17 +3,11 @@
 					<i class="icon-th-large"></i>
 					Manage users					
 				</h1>
-				
-				
 				<div class="row">
-					
 					<div class="span9">
-				
-						
 							<div class="widget-header">
 								<h3>Users</h3>
 							</div> <!-- /widget-header -->
-									
 							<div class="widget-content">
 								<div class="tabbable">
 									<ul class="nav nav-tabs">
@@ -85,7 +79,7 @@
                                                     <div class="control-group">                                         
                                                         <label class="control-label" for="username">Designation</label>
                                                         <div class="controls">
-                                                        	<?php echo Form::select('level',array('1'=>'Pharmacist','2'=>'Lab Technician','3'=>'Receptionist','4'=>'Doctor')); ?>
+                                                        	<?php echo Form::select('level',array('1'=>'Pharmacist','2'=>'Lab Technician','3'=>'Receptionist','4'=>'Doctor','5'=>'Accountant')); ?>
                         	
                                                         </div>
                                                                      
@@ -130,7 +124,7 @@
 																<td><?php echo $user->id; ?></td>
 																<td><?php echo $user->first_name; ?></td>
 																<td><?php echo $user->last_name; ?> </td>
-																<td>Mseto</td>
+																<td><?php echo $user->designation; ?></td>
 																<td>Fri 21st Mar 2014</td>
 																<td class="action-td">
 																	<a href="javascript:;" class="btn btn-small btn-warning">

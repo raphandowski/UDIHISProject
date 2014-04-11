@@ -4,17 +4,11 @@
 					<i class="icon-th-large"></i>
 					Manage users					
 				</h1>
-				
-				
 				<div class="row">
-					
 					<div class="span9">
-				
-						
 							<div class="widget-header">
 								<h3>Users</h3>
 							</div> <!-- /widget-header -->
-									
 							<div class="widget-content">
 								<div class="tabbable">
 									<ul class="nav nav-tabs">
@@ -131,7 +125,7 @@
 																<td>{{$user->id}}</td>
 																<td>{{$user->first_name}}</td>
 																<td>{{$user->last_name}} </td>
-																<td>Mseto</td>
+																<td>{{$user->designation}}</td>
 																<td>Fri 21st Mar 2014</td>
 																<td class="action-td">
 																	<a href="javascript:;" class="btn btn-small btn-warning">

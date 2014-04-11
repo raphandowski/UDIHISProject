@@ -13,7 +13,12 @@
     {{HTML::style('packages/bootstrap/css/style.css')}}
     {{HTML::style('packages/bootstrap/css/style-responsive.css')}}
     {{HTML::style('packages/bootstrap/css/login.css')}}
-    {{HTML::style('package/bootstrap/css/dashbord.css')}}
+    {{HTML::style('packages/bootstrap/css/dashbord.css')}}
+    
+    {{HTML::style('packages/media/css/jquery.dataTables.css')}}
+    {{HTML::style('packages/media/css/jquery.dataTables_themeroller.css')}}
+    {{HTML::style('packages/jquery-ui/css/ui-lightness/jquery-ui-1.10.4.custom.css')}}
+
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet">
   

@@ -11,9 +11,5 @@
 {{HTML::script('packages/bootstrap/js/jquery.flot.resize.js')}}
 {{HTML::script('packages/bootstrap/js/charts/bar.js')}}
 
-
-
-
-
 </body>
 </html>

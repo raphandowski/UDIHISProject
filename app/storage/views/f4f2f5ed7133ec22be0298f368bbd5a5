@@ -115,57 +115,7 @@
                                         <div class="widget-content" id="1">
                         
 
-                                            <form id="edit-profile" class="form-horizontal pull-center" action="">
-                                                <fieldset>
-                                                    <div class="control-group">  
-                                                     <label class="control-label" for="username">Email</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div>                                       
-                                              
-                                                    </div> <!-- /control-group -->
-                                                     <div class="control-group"> 
-                                                    <label class="control-label" for="username">First name</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div> <!-- /controls --> 
-                                                        </div>
-                                                    <div class="control-group">                                         
-                                                        <label class="control-label" for="username">Middle name</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div> <!-- /controls -->               
-                                                    </div> <!-- /control-group -->
-                                                    <div class="control-group">                                         
-                                                        <label class="control-label" for="username">Last name</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div> <!-- /controls -->               
-                                                    </div> <!-- /control-group -->
-                                                    <div class="control-group">                                         
-                                                        <label class="control-label" for="username">Address</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div> <!-- /controls -->               
-                                                    </div> <!-- /control-group -->
-                                                    <div class="control-group">                                         
-                                                        <label class="control-label" for="username">Designation</label>
-                                                        <div class="controls">
-                                                            <input type="text" class="input-xlarge " id="" value="">
-                                                            
-                                                        </div> <!-- /controls -->               
-                                                    </div> <!-- /control-group -->
-                                                    
-                                                    <div class="pull-right">
-                                                        <button class="btn">Cancel</button> <button type="submit" class="btn btn-primary">Add</button>
-                                                    </div>
-                                                </fieldset>
-                                            </form>
+                                            
                                         </div>
                         <div class="widget-content">
 

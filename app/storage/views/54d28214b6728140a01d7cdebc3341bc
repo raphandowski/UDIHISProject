@@ -5,11 +5,15 @@
             <div class="container">
 
             	<?php if(Auth::user()->level == 0): ?>
-                <a class="brand" href="./index.html">Administrator</a>
+                <a class="brand" href="">Administrator</a>
                 <?php endif; ?>
 
             	<?php if(Auth::user()->level == 1): ?>
                 <a class="brand" href="">Pharmacy</a>
+                <?php endif; ?>
+
+                <?php if(Auth::user()->level == 3): ?>
+                <a class="brand" href="">Reception</a>
                 <?php endif; ?>
                 <div class="nav-collapse">
 
@@ -41,6 +45,9 @@
                             <?php endif; ?>
                             <?php if(Auth::user()->level == 1): ?>
                             <span class="account-name">Pharmacy</span>
+                            <?php endif; ?>
+                             <?php if(Auth::user()->level == 3): ?>
+                            <span class="account-name"><?php echo Auth::user()->first_name; ?></span>
                             <?php endif; ?>
 
                             <span class="account-actions">

@@ -5,11 +5,15 @@
             <div class="container">
 
             	@if(Auth::user()->level == 0)
-                <a class="brand" href="./index.html">Administrator</a>
+                <a class="brand" href="">Administrator</a>
                 @endif
 
             	@if(Auth::user()->level == 1)
                 <a class="brand" href="">Pharmacy</a>
+                @endif
+
+                @if(Auth::user()->level == 3)
+                <a class="brand" href="">Reception</a>
                 @endif
                 <div class="nav-collapse">
 
@@ -41,6 +45,9 @@
                             @endif
                             @if(Auth::user()->level == 1)
                             <span class="account-name">Pharmacy</span>
+                            @endif
+                             @if(Auth::user()->level == 3)
+                            <span class="account-name">{{Auth::user()->first_name}}</span>
                             @endif
 
                             <span class="account-actions">

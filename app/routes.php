@@ -16,20 +16,25 @@
 Route::get('/', 'UserController@getIndex');
 Route::get('login', 'UserController@getIndex');
 Route::get('pharmacy', 'Pharmacy@getIndex');
-Route::get('admin','Admin@getIndex');
+Route::get('reception', 'ReceptionController@getIndex');
+Route::get('admin','AdminController@getIndex');
 Route::get('/addUser','UserController@addUser');
 Route::post('/users/store','UserController@storeUser');
 Route::post('/login', 'UserController@login');
-Route::get('/manage_user','Admin@manage_user');
-Route::post('/manage_user','Admin@addUser');
+Route::get('/manage_user','AdminController@manage_user');
+Route::post('/manage_user','AdminController@addUser');
 Route::get('/logout','UserController@logout');
 
-
-//Route::get('/login', function() {
-//    return Redirect::to('/');
-//});
-//
-//Route::post('/login', function() {
-//
-
+///////////////////////////////////////////
+//////////////receptionist///////////////
+/*for listsing patients and adding*/
+Route::get('patients' , 'PatientController@index');
+/*to add a patient*/
+Route::post('patients/add' , 'PatientController@store');
+/*for editing a patient*/
+Route::get('patients/edit/{id}' , 'PatientController@edit');
+/*to update patient infor*/
+Route::post('patients/edit/{id}' , 'PatientController@update');
+/*to delete a patient*/
+Route::get('patients/delete/{id}' , 'PatientController@destroy');
 //});

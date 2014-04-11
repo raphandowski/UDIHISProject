@@ -31,7 +31,13 @@
 @endif
 
 @if(Auth::user()->level == 3)
-
+<ul id="main-nav" class="nav nav-tabs nav-stacked">
+    <li class="active"><a href="reception"><i class="icon-home"></i>Dashboard</a></li>
+    <li><a href="appointment"><i class="icon-exchange"></i>Appointment </a></li>
+    <li><a href="patients" id="patient"><i class="icon-user-md"></i>Manage Patients</a></li>
+    <li><a href="reports"><i class="icon-hospital"></i>Manage Reports</a></li>
+    <li><a href="profile"><i class="icon-user"></i>My account</a></li>
+</ul>
 @endif
 
 @if(Auth::user()->level == 4)
